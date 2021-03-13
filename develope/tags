@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFLAG	makefile	/^CFLAG= -std=c++2a -g -pedantic -Wall -Wextra -I ~\/projects\/c++\/Tool\/ -lncurses$/;"	m
+InitSrc	win.h	/^		InitSrc():y(0),x(0)$/;"	f	class:InitSrc	access:public	signature:()
+InitSrc	win.h	/^class InitSrc{$/;"	c
+InitSrc::InitSrc	win.h	/^		InitSrc():y(0),x(0)$/;"	f	class:InitSrc	access:public	signature:()
+InitSrc::col	win.h	/^		int row,col;$/;"	m	class:InitSrc	access:public
+InitSrc::row	win.h	/^		int row,col;$/;"	m	class:InitSrc	access:public
+InitSrc::x	win.h	/^		int y,x;$/;"	m	class:InitSrc	access:public
+InitSrc::y	win.h	/^		int y,x;$/;"	m	class:InitSrc	access:public
+InitSrc::~InitSrc	win.h	/^		~InitSrc(){ endwin(); }$/;"	f	class:InitSrc	access:public	signature:()
+WIN_H	win.h	2;"	d
+Win	win.h	/^		Win(int h=0,int w=0, int y=0,int x =0 )$/;"	f	class:Win	access:public	signature:(int h=0,int w=0, int y=0,int x =0 )
+Win	win.h	/^class Win{$/;"	c
+Win::Win	win.h	/^		Win(int h=0,int w=0, int y=0,int x =0 )$/;"	f	class:Win	access:public	signature:(int h=0,int w=0, int y=0,int x =0 )
+Win::addbox	win.h	/^		void addbox(){ box(win,0,0); }$/;"	f	class:Win	access:public	signature:()
+Win::clr	win.h	/^		void clr(){ wclear(win); wrefresh(win);}$/;"	f	class:Win	access:public	signature:()
+Win::height	win.h	/^		int height, width, starty,startx ;$/;"	m	class:Win	access:public
+Win::move	win.h	/^		void move(int y, int x){ wmove(win,y,x);}$/;"	f	class:Win	access:public	signature:(int y, int x)
+Win::operator ()	win.h	/^		void operator() (){ wrefresh(win);}$/;"	f	class:Win	access:public	signature:()
+Win::operator <<	win.h	/^		Win& operator<<( const char* str) {$/;"	f	class:Win	access:public	signature:( const char* str)
+Win::operator <<	win.h	/^		Win& operator<<( double d ) {$/;"	f	class:Win	access:public	signature:( double d )
+Win::operator <<	win.h	/^		Win& operator<<( int d ) {$/;"	f	class:Win	access:public	signature:( int d )
+Win::printf	win.h	/^		void printf(const char*fmt , ...) {$/;"	f	class:Win	access:public	signature:(const char*fmt , ...)
+Win::refresh	win.h	/^		void refresh(){ wrefresh(win);}$/;"	f	class:Win	access:public	signature:()
+Win::startx	win.h	/^		int height, width, starty,startx ;$/;"	m	class:Win	access:public
+Win::starty	win.h	/^		int height, width, starty,startx ;$/;"	m	class:Win	access:public
+Win::unbox	win.h	/^		void unbox(){ $/;"	f	class:Win	access:public	signature:()
+Win::width	win.h	/^		int height, width, starty,startx ;$/;"	m	class:Win	access:public
+Win::win	win.h	/^		WINDOW* win;$/;"	m	class:Win	access:public
+Win::~Win	win.h	/^		~Win(){$/;"	f	class:Win	access:public	signature:()
+addbox	win.h	/^		void addbox(){ box(win,0,0); }$/;"	f	class:Win	access:public	signature:()
+clr	win.h	/^		void clr(){ wclear(win); wrefresh(win);}$/;"	f	class:Win	access:public	signature:()
+col	win.h	/^		int row,col;$/;"	m	class:InitSrc	access:public
+height	win.h	/^		int height, width, starty,startx ;$/;"	m	class:Win	access:public
+main	a.cc	/^int main(int argc ,char **argv){$/;"	f	signature:(int argc ,char **argv)
+move	win.h	/^		void move(int y, int x){ wmove(win,y,x);}$/;"	f	class:Win	access:public	signature:(int y, int x)
+operator ()	win.h	/^		void operator() (){ wrefresh(win);}$/;"	f	class:Win	access:public	signature:()
+operator <<	win.h	/^		Win& operator<<( const char* str) {$/;"	f	class:Win	access:public	signature:( const char* str)
+operator <<	win.h	/^		Win& operator<<( double d ) {$/;"	f	class:Win	access:public	signature:( double d )
+operator <<	win.h	/^		Win& operator<<( int d ) {$/;"	f	class:Win	access:public	signature:( int d )
+printf	win.h	/^		void printf(const char*fmt , ...) {$/;"	f	class:Win	access:public	signature:(const char*fmt , ...)
+refresh	win.h	/^		void refresh(){ wrefresh(win);}$/;"	f	class:Win	access:public	signature:()
+row	win.h	/^		int row,col;$/;"	m	class:InitSrc	access:public
+startx	win.h	/^		int height, width, starty,startx ;$/;"	m	class:Win	access:public
+starty	win.h	/^		int height, width, starty,startx ;$/;"	m	class:Win	access:public
+unbox	win.h	/^		void unbox(){ $/;"	f	class:Win	access:public	signature:()
+width	win.h	/^		int height, width, starty,startx ;$/;"	m	class:Win	access:public
+win	win.h	/^		WINDOW* win;$/;"	m	class:Win	access:public
+x	win.h	/^		int y,x;$/;"	m	class:InitSrc	access:public
+y	win.h	/^		int y,x;$/;"	m	class:InitSrc	access:public
+~InitSrc	win.h	/^		~InitSrc(){ endwin(); }$/;"	f	class:InitSrc	access:public	signature:()
+~Win	win.h	/^		~Win(){$/;"	f	class:Win	access:public	signature:()
