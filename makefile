@@ -9,7 +9,7 @@ CFLAG= -std=c++11 -g -pedantic -Wall -Wextra -lncurses
 debug: CFALG+= -Wfatal-errors -w -DDEBUG 
 debug: all
 
-VPATH = include 
+VPATH = include src 
 
 all: ${OBJ} ${EXE} 
 

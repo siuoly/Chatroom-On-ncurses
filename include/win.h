@@ -66,7 +66,7 @@ class InitSrc{
 			//noecho(); // noecho
 			//curs_set(0); // not show mouse
 			getmaxyx( stdscr, row, col );
-			keypad(stdscr, TRUE); // set keyboard
+			//keypad(stdscr, TRUE); // set keyboard
 			refresh();
 		}
 		~InitSrc(){ endwin(); exit(0); }
