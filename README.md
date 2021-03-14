@@ -2,6 +2,10 @@
 
 > Terminal chatroom using socket, ncurses on c++.
 
+<p align="center">
+    <img align="center" alt="chatroom in action!" src="assets/demo.gif"></img>
+</p>
+
 ### Requirements
 
 - C++11 compiler (e.g. `g++`)
